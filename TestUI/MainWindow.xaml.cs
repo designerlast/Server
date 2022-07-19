@@ -34,6 +34,9 @@ namespace TestUI
                      $"请{i}秒之后重新获取"
                     ,TimeSpan.FromSeconds(6-i)
                     ));
+
+
+
             }
             StringAnimationUsingKeyFrames.FillBehavior = FillBehavior.Stop;
             StringAnimationUsingKeyFrames.Completed += (s, e) =>
